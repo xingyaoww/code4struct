@@ -14,7 +14,7 @@ conda activate code4struct
 
 Please refer to [docs/DATA.md](docs/DATA.md) for detailed instructions.
 
-# Inference
+## Inference
 
 You will need to obtain your API key from [here](https://beta.openai.com/account/api-keys).
 
@@ -32,7 +32,7 @@ Evaluation result for each experiment run will be saved to the corresponding out
 
 ## Visualize Evaluation Result
 
-You can also visualize evaluation result using `localhost:8000` after running the following: 
+You can also visualize evaluation result using `localhost:8000` by running the following: 
 ```bash
 streamlit run --server.port 8000 src/scripts/evaluation/streamlit-viz.py
 ```
