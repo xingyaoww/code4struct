@@ -4,7 +4,7 @@
 
 First, obtaining raw ACE 2005 corpus from [here](https://catalog.ldc.upenn.edu/LDC2006T06) and put it to `data/extraction/ace/raw/ace_2005_td_v7`.
 
-Then, download OneIE from [here](http://blender.cs.illinois.edu/software/oneie/) and unzip it to `data/extraction/ace/raw/oneie_v0.4.8`).
+Then, download OneIE from [here](http://blender.cs.illinois.edu/software/oneie/) and unzip it to `data/extraction/ace/raw/oneie_v0.4.8`.
 
 ```bash
 cd data/extraction/ace/raw/
