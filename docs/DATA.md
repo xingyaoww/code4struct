@@ -102,7 +102,7 @@ PYTHONPATH=`pwd`:$PYTHONPATH python3 src/scripts/data/process_ACE_dataset.py \
     --pure-text-prompt --mark-trigger
 ```
 
-**`Cross-sibling Transfer`**
+### Cross-sibling Transfer
 ```bash
 # This augment training examples from sibling event types for in-context learning
 # 10-shot
