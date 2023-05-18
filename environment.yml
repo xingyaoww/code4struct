@@ -1,0 +1,21 @@
+name: code4struct
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandoc
+  - pip:
+    - openai
+    - pandas
+    - scipy
+    - tokenizers
+    - transformers
+    - spacy
+    - tqdm
+    - seaborn
+    - matplotlib
+    - streamlit
+    - amrlib
+    - autopep8
+    - sentence_transformers
