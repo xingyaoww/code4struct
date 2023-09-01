@@ -1,0 +1,66 @@
+{
+    "Conflict": {
+        "train": "Attack",
+        "test": [
+            "Demonstrate"
+        ]
+    },
+    "Movement": {
+        "train": "Transport",
+        "test": []
+    },
+    "Life": {
+        "train": "Die",
+        "test": [
+            "Injure",
+            "Marry",
+            "Be-Born",
+            "Divorce"
+        ]
+    },
+    "Contact": {
+        "train": "Meet",
+        "test": [
+            "Phone-Write"
+        ]
+    },
+    "Personnel": {
+        "train": "Elect",
+        "test": [
+            "End-Position",
+            "Start-Position",
+            "Nominate"
+        ]
+    },
+    "Transaction": {
+        "train": "Transfer-Money",
+        "test": [
+            "Transfer-Ownership"
+        ]
+    },
+    "Justice": {
+        "train": "Trial-Hearing",
+        "test": [
+            "Charge-Indict",
+            "Sentence",
+            "Arrest-Jail",
+            "Convict",
+            "Sue",
+            "Release-Parole",
+            "Appeal",
+            "Fine",
+            "Execute",
+            "Extradite",
+            "Acquit",
+            "Pardon"
+        ]
+    },
+    "Business": {
+        "train": "Declare-Bankruptcy",
+        "test": [
+            "End-Org",
+            "Start-Org",
+            "Merge-Org"
+        ]
+    }
+}

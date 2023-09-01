@@ -1,0 +1,74 @@
+{
+    "Conflict": {
+        "train": "Movement:Transport",
+        "original_train": "Attack",
+        "test": [
+            "Demonstrate"
+        ]
+    },
+    "Movement": {
+        "train": "Conflict:Attack",
+        "original_train": "Transport",
+        "test": []
+    },
+    "Life": {
+        "train": "Personnel:Elect",
+        "original_train": "Die",
+        "test": [
+            "Injure",
+            "Marry",
+            "Be-Born",
+            "Divorce"
+        ]
+    },
+    "Contact": {
+        "train": "Contact:Meet",
+        "original_train": "Meet",
+        "test": [
+            "Phone-Write"
+        ]
+    },
+    "Personnel": {
+        "train": "Contact:Meet",
+        "original_train": "Elect",
+        "test": [
+            "End-Position",
+            "Start-Position",
+            "Nominate"
+        ]
+    },
+    "Transaction": {
+        "train": "Life:Die",
+        "original_train": "Transfer-Money",
+        "test": [
+            "Transfer-Ownership"
+        ]
+    },
+    "Justice": {
+        "train": "Movement:Transport",
+        "original_train": "Trial-Hearing",
+        "test": [
+            "Charge-Indict",
+            "Sentence",
+            "Arrest-Jail",
+            "Convict",
+            "Sue",
+            "Release-Parole",
+            "Appeal",
+            "Fine",
+            "Execute",
+            "Extradite",
+            "Acquit",
+            "Pardon"
+        ]
+    },
+    "Business": {
+        "train": "Movement:Transport",
+        "original_train": "Declare-Bankruptcy",
+        "test": [
+            "End-Org",
+            "Start-Org",
+            "Merge-Org"
+        ]
+    }
+}
