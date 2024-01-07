@@ -1,8 +1,9 @@
 """
 Convert LDC base annotation type to JSON mapping (.json) and Python class (.py).
-python3 src/scripts/data/build-ldc-base-entities.py data/ontology/ldc/base_entities/base_entities
+python3 src/scripts/data/build_ldc_base_entities.py data/ontology/ldc/base_entities/base_entities
 """
 import re
+import pathlib
 import pandas as pd
 import autopep8
 import argparse
@@ -146,19 +147,19 @@ if __name__ == "__main__":
         })
 
     root_entity = """
-    from typing import List
+from typing import List
 
-    class Entity:
-        def __init__(self, name: str):
-            self.name = name
+class Entity:
+    def __init__(self, name: str):
+        self.name = name
 
-    class Event:
-        def __init__(self, name: str):
-            self.name = name
-    """
+class Event:
+    def __init__(self, name: str):
+        self.name = name
+"""
     CODE = root_entity + "".join([entity["code"] for entity in base_entities])
     CODE = autopep8.fix_code(CODE)
-
+    pathlib.Path(args.output_filepath).parent.mkdir(parents=True, exist_ok=True)
     print(
         f"Writing {len(base_entities)} classes to {args.output_filepath} (.py/.json)"
     )
